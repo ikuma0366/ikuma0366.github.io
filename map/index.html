@@ -25,6 +25,8 @@ L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
   attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
 }).addTo(map);
 
+var hash = new L.Hash(map);
+
 map.setView([35.3622222, 138.7313889], 5);
 </script>
 </body>
